@@ -1,11 +1,7 @@
 # mercado-básico-subprogramas
-# Criado usando linguagem de programação C# e subprogramas, onde cada programa possui um papel diferente.
 
 
 using System;
-class HelloWorld {
-
-
 class Program
 {
     //=============================
