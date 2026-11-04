@@ -1,4 +1,10 @@
 # Sistema de Caixa de Mercado
+
+
+
+
+
+
 using System;
 class Program
 {
