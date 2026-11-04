@@ -2,7 +2,6 @@
 using System;
 class Program
 {
-    
     static void MostrarProdutos()
     {
         Console.WriteLine("\n====== MERCADINHO ======");
@@ -17,24 +16,14 @@ class Program
         switch(codigo)
         {
             case 1: 
-            
             return 25;
-            
             case 2:
-            
             return 10;
-            
             case 3:
-            
             return 6;
-            
             case 4:
-            
             return 8;
-            
             default:
-            
-            
             return 0;
         }
     }
