@@ -1,12 +1,9 @@
 # Sistema de Caixa de Mercado
 
-
 using System;
 class Program
 {
-    //=============================
-    // EXIBE A LISTA DE PRODUTOS
-    //=============================
+    
     static void MostrarProdutos()
     {
         Console.WriteLine("\n====== MERCADINHO ======");
@@ -16,10 +13,7 @@ class Program
         Console.WriteLine("4 - Refrigerante // R$8,00");
     }
 
-    //=============================
-    // RETORNA O PREÇO
-    //=============================
-    static double ObterPreco(int codigo)
+    /
     {
         switch(codigo)
         {
@@ -46,9 +40,7 @@ class Program
         }
     }
 
-    //=============================
-    // RETORNA O NOME
-    //=============================
+    
     static string ObterNome(int codigo)
     {
         switch(codigo)
@@ -71,17 +63,10 @@ class Program
         }
     }
 
-    //=============================
-    // CALCULA O TOTAL DO ITEM
-    //=============================
     static double CalcularTotal(double preco, int quantidade)
     {
         return preco * quantidade;
     }
-
-    //=============================
-    // PROGRAMA PRINCIPAL
-    //=============================
     static void Main()
     {
         double totalCompra = 0;
